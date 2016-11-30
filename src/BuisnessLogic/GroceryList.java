@@ -1,3 +1,8 @@
+package BuisnessLogic;
+
+import BuisnessLogic.GroceryItemOrder;
+import DAO.GroceryListDao;
+
 /**
  * Created by borisgrunwald on 23/08/2016.
  */
@@ -18,6 +23,10 @@ public class GroceryList implements GroceryListInterface {
             System.out.println("List can maximum contain 10 Items");
         }
 
+    }
+
+    public void retrieveItemsFromDB() {
+        GroceryListDao.addItemFromFile(this);
     }
 
     public double getTotalCost() {

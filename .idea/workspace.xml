@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb51c32b-7dda-480a-af20-3b4f8fe638d9" name="Default" comment="" />
+    <list default="true" id="fb51c32b-7dda-480a-af20-3b4f8fe638d9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/GroceryListDao.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/2 semester opgaver/GroceryItemOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/2 semester opgaver/GroceryList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/2 semester opgaver/GroceryList2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/2 semester opgaver/GroceryListInterface.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GroceryItemOrder.java" afterPath="$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GroceryList.java" afterPath="$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GroceryList2.java" afterPath="$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GroceryListInterface.java" afterPath="$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/2 semester opgaver/RunProgram.class" afterPath="$PROJECT_DIR$/out/production/2 semester opgaver/RunProgram.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RunProgram.java" afterPath="$PROJECT_DIR$/src/RunProgram.java" />
+    </list>
     <ignored path="2 semester opgaver.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,47 +36,110 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GroceryItemOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
-                <element signature="e#459#460#0" expanded="false" />
-                <element signature="e#486#487#0" expanded="false" />
-                <element signature="e#518#519#0" expanded="false" />
-                <element signature="e#549#550#0" expanded="false" />
-                <element signature="e#580#581#0" expanded="false" />
-                <element signature="e#617#618#0" expanded="false" />
-                <element signature="e#657#658#0" expanded="false" />
-                <element signature="e#689#690#0" expanded="false" />
-                <element signature="e#734#735#0" expanded="false" />
-                <element signature="e#774#775#0" expanded="false" />
-                <element signature="e#816#817#0" expanded="false" />
-                <element signature="e#850#851#0" expanded="false" />
+                <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+                <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+                <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+                <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/items.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GroceryList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+        <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
+                <element signature="docComment;class#GroceryList#0" expanded="false" />
+                <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
                 <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+                <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+                <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunProgram.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunProgram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RunProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#RunProgram#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/RunProgram" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/RunProgram">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>RunProgram</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">RunProgram</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-197.5" y="-67.0" />
+              <SelectedNodes>
+                <node>RunProgram</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/BuisnessLogic.GroceryItemOrder" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/BuisnessLogic.GroceryItemOrder">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>BuisnessLogic.GroceryItemOrder</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">BuisnessLogic.GroceryItemOrder</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="1.0" />
+              <SelectedNodes>
+                <node>BuisnessLogic.GroceryItemOrder</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroceryListDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/GroceryListDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,81 +156,24 @@
         </entry>
       </file>
       <file leaf-file-name="GroceryListInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GroceryList2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+        <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="method#GroceryList2#0;class#GroceryList2#0" expanded="false" />
                 <element signature="method#getTotalCost#0;class#GroceryList2#0" expanded="false" />
                 <element signature="method#toString#0;class#GroceryList2#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
-              <caret line="223" column="34" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#54151#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#10189#10190#0" expanded="false" />
-                <element signature="e#10216#10217#0" expanded="false" />
-                <element signature="e#10398#10399#0" expanded="false" />
-                <element signature="e#10430#10431#0" expanded="false" />
-                <element signature="e#10907#10908#0" expanded="false" />
-                <element signature="e#10945#10946#0" expanded="false" />
-                <element signature="e#13541#13542#0" expanded="false" />
-                <element signature="e#13596#13597#0" expanded="false" />
-                <element signature="e#15414#15415#0" expanded="false" />
-                <element signature="e#15459#15460#0" expanded="false" />
-                <element signature="e#24549#24550#0" expanded="false" />
-                <element signature="e#24603#24604#0" expanded="false" />
-                <element signature="e#30347#30348#0" expanded="false" />
-                <element signature="e#30384#30385#0" expanded="false" />
-                <element signature="e#30684#30685#0" expanded="false" />
-                <element signature="e#30716#30717#0" expanded="false" />
-                <element signature="e#31041#31042#0" expanded="false" />
-                <element signature="e#31086#31087#0" expanded="false" />
-                <element signature="e#33262#33263#0" expanded="false" />
-                <element signature="e#33304#33305#0" expanded="false" />
-                <element signature="e#33338#33339#0" expanded="false" />
-                <element signature="e#33375#33376#0" expanded="false" />
-                <element signature="e#33413#33414#0" expanded="false" />
-                <element signature="e#33454#33455#0" expanded="false" />
-                <element signature="e#38943#38944#0" expanded="false" />
-                <element signature="e#38994#38995#0" expanded="false" />
-                <element signature="e#39436#39437#0" expanded="false" />
-                <element signature="e#39481#39482#0" expanded="false" />
-                <element signature="e#39886#39887#0" expanded="false" />
-                <element signature="e#39960#39961#0" expanded="false" />
-                <element signature="e#40600#40601#0" expanded="false" />
-                <element signature="e#40658#40659#0" expanded="false" />
-                <element signature="e#42227#42228#0" expanded="false" />
-                <element signature="e#42280#42281#0" expanded="false" />
-                <element signature="e#42326#42327#0" expanded="false" />
-                <element signature="e#42383#42384#0" expanded="false" />
-                <element signature="e#44775#44776#0" expanded="false" />
-                <element signature="e#44842#44843#0" expanded="false" />
-                <element signature="e#46390#46391#0" expanded="false" />
-                <element signature="e#46455#46456#0" expanded="false" />
-                <element signature="e#51499#51500#0" expanded="false" />
-                <element signature="e#51557#51558#0" expanded="false" />
-                <element signature="e#51597#51598#0" expanded="false" />
-                <element signature="e#51690#51691#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -165,10 +184,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -182,7 +204,13 @@
         <option value="$PROJECT_DIR$/src/GroceryList.java" />
         <option value="$PROJECT_DIR$/src/GroceryListInterface.java" />
         <option value="$PROJECT_DIR$/src/GroceryList2.java" />
+        <option value="$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java" />
+        <option value="$PROJECT_DIR$/src/DAO/items.txt" />
+        <option value="$PROJECT_DIR$/src/DAO/GroceryListDao.java" />
+        <option value="$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java" />
         <option value="$PROJECT_DIR$/src/RunProgram.java" />
+        <option value="$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java" />
+        <option value="$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java" />
       </list>
     </option>
   </component>
@@ -193,10 +221,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="128" />
     <option name="width" value="1366" />
-    <option name="height" value="542" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -223,6 +249,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,11 +283,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grocery List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grocery List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grocery List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grocery List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BuisnessLogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -682,26 +744,27 @@
       <workItem from="1474550997666" duration="2415000" />
       <workItem from="1420070680055" duration="9000" />
       <workItem from="1474654342676" duration="794000" />
-      <workItem from="1479245056486" duration="193000" />
+      <workItem from="1479245056486" duration="445000" />
+      <workItem from="1479414574584" duration="4288000" />
+      <workItem from="1479466037474" duration="122000" />
+      <workItem from="1479826315528" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33098000" />
+    <option name="totallyTimeSpent" value="37815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="128" width="1366" height="542" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21060172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,13 +772,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52666664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -765,108 +831,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="method#GroceryList2#0;class#GroceryList2#0" expanded="false" />
-            <element signature="method#getTotalCost#0;class#GroceryList2#0" expanded="false" />
-            <element signature="method#toString#0;class#GroceryList2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="223" column="34" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#54151#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10189#10190#0" expanded="false" />
-            <element signature="e#10216#10217#0" expanded="false" />
-            <element signature="e#10398#10399#0" expanded="false" />
-            <element signature="e#10430#10431#0" expanded="false" />
-            <element signature="e#10907#10908#0" expanded="false" />
-            <element signature="e#10945#10946#0" expanded="false" />
-            <element signature="e#13541#13542#0" expanded="false" />
-            <element signature="e#13596#13597#0" expanded="false" />
-            <element signature="e#15414#15415#0" expanded="false" />
-            <element signature="e#15459#15460#0" expanded="false" />
-            <element signature="e#24549#24550#0" expanded="false" />
-            <element signature="e#24603#24604#0" expanded="false" />
-            <element signature="e#30347#30348#0" expanded="false" />
-            <element signature="e#30384#30385#0" expanded="false" />
-            <element signature="e#30684#30685#0" expanded="false" />
-            <element signature="e#30716#30717#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="false" />
-            <element signature="e#31086#31087#0" expanded="false" />
-            <element signature="e#33262#33263#0" expanded="false" />
-            <element signature="e#33304#33305#0" expanded="false" />
-            <element signature="e#33338#33339#0" expanded="false" />
-            <element signature="e#33375#33376#0" expanded="false" />
-            <element signature="e#33413#33414#0" expanded="false" />
-            <element signature="e#33454#33455#0" expanded="false" />
-            <element signature="e#38943#38944#0" expanded="false" />
-            <element signature="e#38994#38995#0" expanded="false" />
-            <element signature="e#39436#39437#0" expanded="false" />
-            <element signature="e#39481#39482#0" expanded="false" />
-            <element signature="e#39886#39887#0" expanded="false" />
-            <element signature="e#39960#39961#0" expanded="false" />
-            <element signature="e#40600#40601#0" expanded="false" />
-            <element signature="e#40658#40659#0" expanded="false" />
-            <element signature="e#42227#42228#0" expanded="false" />
-            <element signature="e#42280#42281#0" expanded="false" />
-            <element signature="e#42326#42327#0" expanded="false" />
-            <element signature="e#42383#42384#0" expanded="false" />
-            <element signature="e#44775#44776#0" expanded="false" />
-            <element signature="e#44842#44843#0" expanded="false" />
-            <element signature="e#46390#46391#0" expanded="false" />
-            <element signature="e#46455#46456#0" expanded="false" />
-            <element signature="e#51499#51500#0" expanded="false" />
-            <element signature="e#51557#51558#0" expanded="false" />
-            <element signature="e#51597#51598#0" expanded="false" />
-            <element signature="e#51690#51691#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -876,6 +850,7 @@
         <state relative-caret-position="270">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
@@ -889,7 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -897,7 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
@@ -913,84 +888,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3345">
           <caret line="223" column="34" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#54151#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10189#10190#0" expanded="false" />
-            <element signature="e#10216#10217#0" expanded="false" />
-            <element signature="e#10398#10399#0" expanded="false" />
-            <element signature="e#10430#10431#0" expanded="false" />
-            <element signature="e#10907#10908#0" expanded="false" />
-            <element signature="e#10945#10946#0" expanded="false" />
-            <element signature="e#13541#13542#0" expanded="false" />
-            <element signature="e#13596#13597#0" expanded="false" />
-            <element signature="e#15414#15415#0" expanded="false" />
-            <element signature="e#15459#15460#0" expanded="false" />
-            <element signature="e#24549#24550#0" expanded="false" />
-            <element signature="e#24603#24604#0" expanded="false" />
-            <element signature="e#30347#30348#0" expanded="false" />
-            <element signature="e#30384#30385#0" expanded="false" />
-            <element signature="e#30684#30685#0" expanded="false" />
-            <element signature="e#30716#30717#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="false" />
-            <element signature="e#31086#31087#0" expanded="false" />
-            <element signature="e#33262#33263#0" expanded="false" />
-            <element signature="e#33304#33305#0" expanded="false" />
-            <element signature="e#33338#33339#0" expanded="false" />
-            <element signature="e#33375#33376#0" expanded="false" />
-            <element signature="e#33413#33414#0" expanded="false" />
-            <element signature="e#33454#33455#0" expanded="false" />
-            <element signature="e#38943#38944#0" expanded="false" />
-            <element signature="e#38994#38995#0" expanded="false" />
-            <element signature="e#39436#39437#0" expanded="false" />
-            <element signature="e#39481#39482#0" expanded="false" />
-            <element signature="e#39886#39887#0" expanded="false" />
-            <element signature="e#39960#39961#0" expanded="false" />
-            <element signature="e#40600#40601#0" expanded="false" />
-            <element signature="e#40658#40659#0" expanded="false" />
-            <element signature="e#42227#42228#0" expanded="false" />
-            <element signature="e#42280#42281#0" expanded="false" />
-            <element signature="e#42326#42327#0" expanded="false" />
-            <element signature="e#42383#42384#0" expanded="false" />
-            <element signature="e#44775#44776#0" expanded="false" />
-            <element signature="e#44842#44843#0" expanded="false" />
-            <element signature="e#46390#46391#0" expanded="false" />
-            <element signature="e#46455#46456#0" expanded="false" />
-            <element signature="e#51499#51500#0" expanded="false" />
-            <element signature="e#51557#51558#0" expanded="false" />
-            <element signature="e#51597#51598#0" expanded="false" />
-            <element signature="e#51690#51691#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1000,6 +924,7 @@
         <state relative-caret-position="270">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
@@ -1013,7 +938,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1021,7 +946,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
@@ -1037,84 +962,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3345">
           <caret line="223" column="34" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#54151#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10189#10190#0" expanded="false" />
-            <element signature="e#10216#10217#0" expanded="false" />
-            <element signature="e#10398#10399#0" expanded="false" />
-            <element signature="e#10430#10431#0" expanded="false" />
-            <element signature="e#10907#10908#0" expanded="false" />
-            <element signature="e#10945#10946#0" expanded="false" />
-            <element signature="e#13541#13542#0" expanded="false" />
-            <element signature="e#13596#13597#0" expanded="false" />
-            <element signature="e#15414#15415#0" expanded="false" />
-            <element signature="e#15459#15460#0" expanded="false" />
-            <element signature="e#24549#24550#0" expanded="false" />
-            <element signature="e#24603#24604#0" expanded="false" />
-            <element signature="e#30347#30348#0" expanded="false" />
-            <element signature="e#30384#30385#0" expanded="false" />
-            <element signature="e#30684#30685#0" expanded="false" />
-            <element signature="e#30716#30717#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="false" />
-            <element signature="e#31086#31087#0" expanded="false" />
-            <element signature="e#33262#33263#0" expanded="false" />
-            <element signature="e#33304#33305#0" expanded="false" />
-            <element signature="e#33338#33339#0" expanded="false" />
-            <element signature="e#33375#33376#0" expanded="false" />
-            <element signature="e#33413#33414#0" expanded="false" />
-            <element signature="e#33454#33455#0" expanded="false" />
-            <element signature="e#38943#38944#0" expanded="false" />
-            <element signature="e#38994#38995#0" expanded="false" />
-            <element signature="e#39436#39437#0" expanded="false" />
-            <element signature="e#39481#39482#0" expanded="false" />
-            <element signature="e#39886#39887#0" expanded="false" />
-            <element signature="e#39960#39961#0" expanded="false" />
-            <element signature="e#40600#40601#0" expanded="false" />
-            <element signature="e#40658#40659#0" expanded="false" />
-            <element signature="e#42227#42228#0" expanded="false" />
-            <element signature="e#42280#42281#0" expanded="false" />
-            <element signature="e#42326#42327#0" expanded="false" />
-            <element signature="e#42383#42384#0" expanded="false" />
-            <element signature="e#44775#44776#0" expanded="false" />
-            <element signature="e#44842#44843#0" expanded="false" />
-            <element signature="e#46390#46391#0" expanded="false" />
-            <element signature="e#46455#46456#0" expanded="false" />
-            <element signature="e#51499#51500#0" expanded="false" />
-            <element signature="e#51557#51558#0" expanded="false" />
-            <element signature="e#51597#51598#0" expanded="false" />
-            <element signature="e#51690#51691#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1124,12 +998,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1137,7 +1012,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
@@ -1149,33 +1024,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1185,12 +1056,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1198,7 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
@@ -1210,33 +1082,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1246,12 +1114,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1259,7 +1128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
@@ -1271,33 +1140,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
           <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1307,6 +1172,7 @@
         <state relative-caret-position="165">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
@@ -1326,33 +1192,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1362,6 +1224,7 @@
         <state relative-caret-position="270">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
         </state>
@@ -1399,54 +1262,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2940">
           <caret line="223" column="34" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#54151#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10189#10190#0" expanded="false" />
-            <element signature="e#10216#10217#0" expanded="false" />
-            <element signature="e#10398#10399#0" expanded="false" />
-            <element signature="e#10430#10431#0" expanded="false" />
-            <element signature="e#10907#10908#0" expanded="false" />
-            <element signature="e#10945#10946#0" expanded="false" />
-            <element signature="e#13541#13542#0" expanded="false" />
-            <element signature="e#13596#13597#0" expanded="false" />
-            <element signature="e#15414#15415#0" expanded="false" />
-            <element signature="e#15459#15460#0" expanded="false" />
-            <element signature="e#24549#24550#0" expanded="false" />
-            <element signature="e#24603#24604#0" expanded="false" />
-            <element signature="e#30347#30348#0" expanded="false" />
-            <element signature="e#30384#30385#0" expanded="false" />
-            <element signature="e#30684#30685#0" expanded="false" />
-            <element signature="e#30716#30717#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="false" />
-            <element signature="e#31086#31087#0" expanded="false" />
-            <element signature="e#33262#33263#0" expanded="false" />
-            <element signature="e#33304#33305#0" expanded="false" />
-            <element signature="e#33338#33339#0" expanded="false" />
-            <element signature="e#33375#33376#0" expanded="false" />
-            <element signature="e#33413#33414#0" expanded="false" />
-            <element signature="e#33454#33455#0" expanded="false" />
-            <element signature="e#38943#38944#0" expanded="false" />
-            <element signature="e#38994#38995#0" expanded="false" />
-            <element signature="e#39436#39437#0" expanded="false" />
-            <element signature="e#39481#39482#0" expanded="false" />
-            <element signature="e#39886#39887#0" expanded="false" />
-            <element signature="e#39960#39961#0" expanded="false" />
-            <element signature="e#40600#40601#0" expanded="false" />
-            <element signature="e#40658#40659#0" expanded="false" />
-            <element signature="e#42227#42228#0" expanded="false" />
-            <element signature="e#42280#42281#0" expanded="false" />
-            <element signature="e#42326#42327#0" expanded="false" />
-            <element signature="e#42383#42384#0" expanded="false" />
-            <element signature="e#44775#44776#0" expanded="false" />
-            <element signature="e#44842#44843#0" expanded="false" />
-            <element signature="e#46390#46391#0" expanded="false" />
-            <element signature="e#46455#46456#0" expanded="false" />
-            <element signature="e#51499#51500#0" expanded="false" />
-            <element signature="e#51557#51558#0" expanded="false" />
-            <element signature="e#51597#51598#0" expanded="false" />
-            <element signature="e#51690#51691#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,39 +1274,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryItemOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/DAO/items.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryListInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList2.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryItemOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#0;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#GroceryItemOrder#1;class#GroceryItemOrder#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryItemOrder#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="method#GroceryList2#0;class#GroceryList2#0" expanded="false" />
             <element signature="method#getTotalCost#0;class#GroceryList2#0" expanded="false" />
@@ -1499,23 +1307,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroceryList.java">
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryListInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuisnessLogic/GroceryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
+            <element signature="docComment;class#GroceryList#0" expanded="false" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
             <element signature="method#addItem#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#getTotalCost#0;class#GroceryList#0" expanded="false" />
+            <element signature="method#toString#0;class#GroceryList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/GroceryListDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RunProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#RunProgram#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/RunProgram">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>RunProgram</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">RunProgram</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-197.5" y="-67.0" />
+          <SelectedNodes>
+            <node>RunProgram</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/BuisnessLogic.GroceryItemOrder">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>BuisnessLogic.GroceryItemOrder</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">BuisnessLogic.GroceryItemOrder</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="1.0" />
+          <SelectedNodes>
+            <node>BuisnessLogic.GroceryItemOrder</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

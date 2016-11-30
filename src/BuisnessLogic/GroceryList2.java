@@ -1,3 +1,8 @@
+package BuisnessLogic;
+
+import BuisnessLogic.GroceryItemOrder;
+import DAO.GroceryListDao;
+
 import java.util.ArrayList;
 
 /**
@@ -15,6 +20,11 @@ public class GroceryList2 implements GroceryListInterface {
         items.add(e);
     }
 
+    @Override
+    public void retrieveItemsFromDB() {
+        GroceryListDao.addItemFromFile(this);
+    }
+
     public double getTotalCost() {
 
         double totalPrice = 0.0;
@@ -26,13 +36,11 @@ public class GroceryList2 implements GroceryListInterface {
         return totalPrice;
     }
 
-    public ArrayList<GroceryItemOrder> getItems() {
-        return items;
-    }
-
     public void setItems(ArrayList<GroceryItemOrder> items) {
         this.items = items;
     }
+
+
 
     public String toString() {
 
